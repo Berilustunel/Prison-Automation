@@ -1,0 +1,319 @@
+Mahkum ID:2.isim: 1 1 |Hastalık: fhfth |Durumu: Ağır |Islem: Hastaneye sevk
+Ziyareci id:5.İsim: 754_34|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:6.İsim: 6_6|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:2.İsim: ge_hsd|Giriş Tarihi: 2020-06-05|Ziyaret edilen Mahkum ID: 3#
+Mahkum ID:3.isim: 11 1 |Hastalık: hdgh |Durumu: Ağır |Islem: Hastaneye sevk
+Mahkum ID:2.isim: 1 1 |Hastalık: fhfth |Durumu: Ağır |Islem: Hastaneye sevk
+Ziyareci id:5.İsim: 754_34|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:6.İsim: 6_6|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:2.İsim: ge_hsd|Giriş Tarihi: 2020-06-05|Ziyaret edilen Mahkum ID: 3#
+Mahkum ID:3.isim: 11 1 |Hastalık: hdgh |Durumu: Hafif |Islem: Revirde muayene edilecek
+Mahkum ID:2.isim: 1 1 |Hastalık: fhfth |Durumu: Ağır |Islem: Hastaneye sevk
+Ziyareci id:5.İsim: 754_34|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:6.İsim: 6_6|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:2.İsim: ge_hsd|Giriş Tarihi: 2020-06-05|Ziyaret edilen Mahkum ID: 3#
+Mahkum ID:3.isim: 11 1 |Hastalık: hdgh |Durumu: Ağır |Islem: Hastaneye sevk
+Mahkum ID:2.isim: 1 1 |Hastalık: fhfth |Durumu: Ağır |Islem: Hastaneye sevk
+Ziyareci id:5.İsim: 754_34|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:6.İsim: 6_6|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:2.İsim: ge_hsd|Giriş Tarihi: 2020-06-05|Ziyaret edilen Mahkum ID: 3#
+Mahkum ID:3.isim: 11 1 |Hastalık: hdgh |Durumu: Gözlem altında |Islem: Revirde muayene edilecek
+Mahkum ID:2.isim: 1 1 |Hastalık: fhfth |Durumu: Ağır |Islem: Hastaneye sevk
+Ziyareci id:5.İsim: 754_34|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:6.İsim: 6_6|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:2.İsim: ge_hsd|Giriş Tarihi: 2020-06-05|Ziyaret edilen Mahkum ID: 3#
+Mahkum ID:3.isim: 11 1 |Hastalık: hdgh |Durumu: Ağır |Islem: Hastaneye sevk
+Mahkum ID:2.isim: 1 1 |Hastalık: fhfth |Durumu: Ağır |Islem: Hastaneye sevk
+Ziyareci id:5.İsim: 754_34|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:6.İsim: 6_6|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:2.İsim: ge_hsd|Giriş Tarihi: 2020-06-05|Ziyaret edilen Mahkum ID: 3#
+Mahkum ID:3.isim: 11 1 |Hastalık: hdgh |Durumu: Hafif |Islem: Revirde muayene edilecek
+Mahkum ID:2.isim: 1 1 |Hastalık: fhfth |Durumu: Ağır |Islem: Hastaneye sevk
+Ziyareci id:5.İsim: 754_34|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:6.İsim: 6_6|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:2.İsim: ge_hsd|Giriş Tarihi: 2020-06-05|Ziyaret edilen Mahkum ID: 3#
+Mahkum ID:3.isim: 11 1 |Hastalık: hdgh |Durumu: Ağır |Islem: Hastaneye sevk
+Mahkum ID:2.isim: 1 1 |Hastalık: fhfth |Durumu: Ağır |Islem: Hastaneye sevk
+Ziyareci id:5.İsim: 754_34|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:6.İsim: 6_6|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:2.İsim: ge_hsd|Giriş Tarihi: 2020-06-05|Ziyaret edilen Mahkum ID: 3#
+Mahkum ID:3.isim: 11 1 |Hastalık: hdgh |Durumu: Gözlem altında |Islem: Revirde muayene edilecek
+Mahkum ID:2.isim: 1 1 |Hastalık: fhfth |Durumu: Ağır |Islem: Hastaneye sevk
+Ziyareci id:5.İsim: 754_34|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:6.İsim: 6_6|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:2.İsim: ge_hsd|Giriş Tarihi: 2020-06-05|Ziyaret edilen Mahkum ID: 3#
+Mahkum ID:3.isim: 11 1 |Hastalık: hdgh |Durumu: Ağır |Islem: Hastaneye sevk
+Mahkum ID:2.isim: 1 1 |Hastalık: fhfth |Durumu: Ağır |Islem: Hastaneye sevk
+Ziyareci id:5.İsim: 754_34|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:6.İsim: 6_6|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:2.İsim: ge_hsd|Giriş Tarihi: 2020-06-05|Ziyaret edilen Mahkum ID: 3#
+Mahkum ID:3.isim: 11 1 |Hastalık: hdgh |Durumu: Hafif |Islem: Revirde muayene edilecek
+Mahkum ID:2.isim: 1 1 |Hastalık: fhfth |Durumu: Ağır |Islem: Hastaneye sevk
+Ziyareci id:5.İsim: 754_34|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:6.İsim: 6_6|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:2.İsim: ge_hsd|Giriş Tarihi: 2020-06-05|Ziyaret edilen Mahkum ID: 3#
+Mahkum ID:3.isim: 11 1 |Hastalık: hdgh |Durumu: Ağır |Islem: Hastaneye sevk
+Mahkum ID:2.isim: 1 1 |Hastalık: fhfth |Durumu: Ağır |Islem: Hastaneye sevk
+Ziyareci id:5.İsim: 754_34|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:6.İsim: 6_6|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:2.İsim: ge_hsd|Giriş Tarihi: 2020-06-05|Ziyaret edilen Mahkum ID: 3#
+Mahkum ID:3.isim: 11 1 |Hastalık: hdgh |Durumu: Gözlem altında |Islem: Revirde muayene edilecek
+Mahkum ID:2.isim: 1 1 |Hastalık: fhfth |Durumu: Ağır |Islem: Hastaneye sevk
+Ziyareci id:5.İsim: 754_34|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:6.İsim: 6_6|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:2.İsim: ge_hsd|Giriş Tarihi: 2020-06-05|Ziyaret edilen Mahkum ID: 3#
+Mahkum ID:3.isim: 11 1 |Hastalık: hdgh |Durumu: Ağır |Islem: Hastaneye sevk
+Mahkum ID:2.isim: 1 1 |Hastalık: fhfth |Durumu: Ağır |Islem: Hastaneye sevk
+Ziyareci id:5.İsim: 754_34|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:6.İsim: 6_6|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:2.İsim: ge_hsd|Giriş Tarihi: 2020-06-05|Ziyaret edilen Mahkum ID: 3#
+Mahkum ID:3.isim: 11 1 |Hastalık: hdgh |Durumu: Hafif |Islem: Revirde muayene edilecek
+Mahkum ID:2.isim: 1 1 |Hastalık: fhfth |Durumu: Ağır |Islem: Hastaneye sevk
+Ziyareci id:5.İsim: 754_34|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:6.İsim: 6_6|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:2.İsim: ge_hsd|Giriş Tarihi: 2020-06-05|Ziyaret edilen Mahkum ID: 3#
+Mahkum ID:3.isim: 11 1 |Hastalık: hdgh |Durumu: Ağır |Islem: Hastaneye sevk
+Mahkum ID:2.isim: 1 1 |Hastalık: fhfth |Durumu: Ağır |Islem: Hastaneye sevk
+Ziyareci id:5.İsim: 754_34|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:6.İsim: 6_6|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:2.İsim: ge_hsd|Giriş Tarihi: 2020-06-05|Ziyaret edilen Mahkum ID: 3#
+Mahkum ID:3.isim: 11 1 |Hastalık: hdgh |Durumu: Ağır |Islem: Hastaneye sevk
+Mahkum ID:2.isim: 1 1 |Hastalık: fhfth |Durumu: Ağır |Islem: Hastaneye sevk
+Ziyareci id:5.İsim: 754_34|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:6.İsim: 6_6|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:2.İsim: ge_hsd|Giriş Tarihi: 2020-06-05|Ziyaret edilen Mahkum ID: 3#
+Mahkum ID:3.isim: 11 1 |Hastalık: hdgh |Durumu: Ağır |Islem: Hastaneye sevk
+Mahkum ID:2.isim: 1 1 |Hastalık: fhfth |Durumu: Ağır |Islem: Hastaneye sevk
+Ziyareci id:5.İsim: 754_34|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:6.İsim: 6_6|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:2.İsim: ge_hsd|Giriş Tarihi: 2020-06-05|Ziyaret edilen Mahkum ID: 3#
+Mahkum ID:3.isim: 11 1 |Hastalık: hdgh |Durumu: Hafif |Islem: Revirde muayene edilecek
+Mahkum ID:2.isim: 1 1 |Hastalık: fhfth |Durumu: Ağır |Islem: Hastaneye sevk
+Ziyareci id:5.İsim: 754_34|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:6.İsim: 6_6|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:2.İsim: ge_hsd|Giriş Tarihi: 2020-06-05|Ziyaret edilen Mahkum ID: 3#
+Mahkum ID:3.isim: 11 1 |Hastalık: hdgh |Durumu: Ağır |Islem: Hastaneye sevk
+Mahkum ID:2.isim: 1 1 |Hastalık: fhfth |Durumu: Ağır |Islem: Hastaneye sevk
+Ziyareci id:5.İsim: 754_34|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:6.İsim: 6_6|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:2.İsim: ge_hsd|Giriş Tarihi: 2020-06-05|Ziyaret edilen Mahkum ID: 3#
+Mahkum ID:3.isim: 11 1 |Hastalık: hdgh |Durumu: Gözlem altında |Islem: Revirde muayene edilecek
+Mahkum ID:2.isim: 1 1 |Hastalık: fhfth |Durumu: Ağır |Islem: Hastaneye sevk
+Ziyareci id:5.İsim: 754_34|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:6.İsim: 6_6|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:2.İsim: ge_hsd|Giriş Tarihi: 2020-06-05|Ziyaret edilen Mahkum ID: 3#
+Mahkum ID:3.isim: 11 1 |Hastalık: hdgh |Durumu: Ağır |Islem: Hastaneye sevk
+Mahkum ID:2.isim: 1 1 |Hastalık: fhfth |Durumu: Ağır |Islem: Hastaneye sevk
+Ziyareci id:5.İsim: 754_34|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:6.İsim: 6_6|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:2.İsim: ge_hsd|Giriş Tarihi: 2020-06-05|Ziyaret edilen Mahkum ID: 3#
+Mahkum ID:3.isim: 11 1 |Hastalık: hdgh |Durumu: Hafif |Islem: Revirde muayene edilecek
+Mahkum ID:2.isim: 1 1 |Hastalık: fhfth |Durumu: Ağır |Islem: Hastaneye sevk
+Ziyareci id:5.İsim: 754_34|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:6.İsim: 6_6|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:2.İsim: ge_hsd|Giriş Tarihi: 2020-06-05|Ziyaret edilen Mahkum ID: 3#
+Mahkum ID:3.isim: 11 1 |Hastalık: hdgh |Durumu: Ağır |Islem: Hastaneye sevk
+Mahkum ID:2.isim: 1 1 |Hastalık: fhfth |Durumu: Ağır |Islem: Hastaneye sevk
+Ziyareci id:5.İsim: 754_34|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:6.İsim: 6_6|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:2.İsim: ge_hsd|Giriş Tarihi: 2020-06-05|Ziyaret edilen Mahkum ID: 3#
+Mahkum ID:3.isim: 11 1 |Hastalık: hdgh |Durumu: Gözlem altında |Islem: Revirde muayene edilecek
+Mahkum ID:2.isim: 1 1 |Hastalık: fhfth |Durumu: Ağır |Islem: Hastaneye sevk
+Ziyareci id:5.İsim: 754_34|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:6.İsim: 6_6|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:2.İsim: ge_hsd|Giriş Tarihi: 2020-06-05|Ziyaret edilen Mahkum ID: 3#
+Mahkum ID:3.isim: 11 1 |Hastalık: hdgh |Durumu: Ağır |Islem: Hastaneye sevk
+Mahkum ID:2.isim: 1 1 |Hastalık: fhfth |Durumu: Ağır |Islem: Hastaneye sevk
+Ziyareci id:5.İsim: 754_34|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:6.İsim: 6_6|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:2.İsim: ge_hsd|Giriş Tarihi: 2020-06-05|Ziyaret edilen Mahkum ID: 3#
+Mahkum ID:3.isim: 11 1 |Hastalık: hdgh |Durumu: Hafif |Islem: Revirde muayene edilecek
+Mahkum ID:2.isim: 1 1 |Hastalık: fhfth |Durumu: Ağır |Islem: Hastaneye sevk
+Ziyareci id:5.İsim: 754_34|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:6.İsim: 6_6|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:2.İsim: ge_hsd|Giriş Tarihi: 2020-06-05|Ziyaret edilen Mahkum ID: 3#
+Mahkum ID:3.isim: 11 1 |Hastalık: hdgh |Durumu: Ağır |Islem: Hastaneye sevk
+Mahkum ID:2.isim: 1 1 |Hastalık: fhfth |Durumu: Ağır |Islem: Hastaneye sevk
+Ziyareci id:5.İsim: 754_34|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:6.İsim: 6_6|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:2.İsim: ge_hsd|Giriş Tarihi: 2020-06-05|Ziyaret edilen Mahkum ID: 3#
+Mahkum ID:3.isim: 11 1 |Hastalık: hdgh |Durumu: Gözlem altında |Islem: Revirde muayene edilecek
+Mahkum ID:2.isim: 1 1 |Hastalık: fhfth |Durumu: Ağır |Islem: Hastaneye sevk
+Ziyareci id:5.İsim: 754_34|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:6.İsim: 6_6|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:2.İsim: ge_hsd|Giriş Tarihi: 2020-06-05|Ziyaret edilen Mahkum ID: 3#
+Mahkum ID:3.isim: 11 1 |Hastalık: hdgh |Durumu: Ağır |Islem: Hastaneye sevk
+Mahkum ID:2.isim: 1 1 |Hastalık: fhfth |Durumu: Ağır |Islem: Hastaneye sevk
+Ziyareci id:5.İsim: 754_34|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:6.İsim: 6_6|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:2.İsim: ge_hsd|Giriş Tarihi: 2020-06-05|Ziyaret edilen Mahkum ID: 3#
+Mahkum ID:3.isim: 11 1 |Hastalık: hdgh |Durumu: Hafif |Islem: Revirde muayene edilecek
+Mahkum ID:2.isim: 1 1 |Hastalık: fhfth |Durumu: Ağır |Islem: Hastaneye sevk
+Ziyareci id:5.İsim: 754_34|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:6.İsim: 6_6|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:2.İsim: ge_hsd|Giriş Tarihi: 2020-06-05|Ziyaret edilen Mahkum ID: 3#
+Mahkum ID:3.isim: 11 1 |Hastalık: hdgh |Durumu: Ağır |Islem: Hastaneye sevk
+Mahkum ID:2.isim: 1 1 |Hastalık: fhfth |Durumu: Ağır |Islem: Hastaneye sevk
+Ziyareci id:5.İsim: 754_34|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:6.İsim: 6_6|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:2.İsim: ge_hsd|Giriş Tarihi: 2020-06-05|Ziyaret edilen Mahkum ID: 3#
+Mahkum ID:3.isim: 11 1 |Hastalık: hdgh |Durumu: Hafif |Islem: Revirde muayene edilecek
+Mahkum ID:2.isim: 1 1 |Hastalık: fhfth |Durumu: Ağır |Islem: Hastaneye sevk
+Ziyareci id:5.İsim: 754_34|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:6.İsim: 6_6|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:2.İsim: ge_hsd|Giriş Tarihi: 2020-06-05|Ziyaret edilen Mahkum ID: 3#
+Mahkum ID:3.isim: 11 1 |Hastalık: hdgh |Durumu: Ağır |Islem: Hastaneye sevk
+Mahkum ID:2.isim: 1 1 |Hastalık: fhfth |Durumu: Ağır |Islem: Hastaneye sevk
+Ziyareci id:5.İsim: 754_34|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:6.İsim: 6_6|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:2.İsim: ge_hsd|Giriş Tarihi: 2020-06-05|Ziyaret edilen Mahkum ID: 3#
+Mahkum ID:3.isim: 11 1 |Hastalık: hdgh |Durumu: Hafif |Islem: Revirde muayene edilecek
+Mahkum ID:2.isim: 1 1 |Hastalık: fhfth |Durumu: Ağır |Islem: Hastaneye sevk
+Ziyareci id:5.İsim: 754_34|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:6.İsim: 6_6|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:2.İsim: ge_hsd|Giriş Tarihi: 2020-06-05|Ziyaret edilen Mahkum ID: 3#
+Mahkum ID:3.isim: 11 1 |Hastalık: hdgh |Durumu: Ağır |Islem: Hastaneye sevk
+Mahkum ID:2.isim: 1 1 |Hastalık: fhfth |Durumu: Ağır |Islem: Hastaneye sevk
+Ziyareci id:5.İsim: 754_34|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:6.İsim: 6_6|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:2.İsim: ge_hsd|Giriş Tarihi: 2020-06-05|Ziyaret edilen Mahkum ID: 3#
+Mahkum ID:3.isim: 11 1 |Hastalık: hdgh |Durumu: Gözlem altında |Islem: Revirde muayene edilecek
+Mahkum ID:2.isim: 1 1 |Hastalık: fhfth |Durumu: Ağır |Islem: Hastaneye sevk
+Ziyareci id:5.İsim: 754_34|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:6.İsim: 6_6|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:2.İsim: ge_hsd|Giriş Tarihi: 2020-06-05|Ziyaret edilen Mahkum ID: 3#
+Mahkum ID:3.isim: 11 1 |Hastalık: hdgh |Durumu: Ağır |Islem: Hastaneye sevk
+Mahkum ID:2.isim: 1 1 |Hastalık: fhfth |Durumu: Ağır |Islem: Hastaneye sevk
+Ziyareci id:5.İsim: 754_34|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:6.İsim: 6_6|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:2.İsim: ge_hsd|Giriş Tarihi: 2020-06-05|Ziyaret edilen Mahkum ID: 3#
+Mahkum ID:3.isim: 11 1 |Hastalık: hdgh |Durumu: Hafif |Islem: Revirde muayene edilecek
+Mahkum ID:2.isim: 1 1 |Hastalık: fhfth |Durumu: Ağır |Islem: Hastaneye sevk
+Ziyareci id:5.İsim: 754_34|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:6.İsim: 6_6|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:2.İsim: ge_hsd|Giriş Tarihi: 2020-06-05|Ziyaret edilen Mahkum ID: 3#
+Mahkum ID:3.isim: 11 1 |Hastalık: hdgh |Durumu: Ağır |Islem: Hastaneye sevk
+Mahkum ID:2.isim: 1 1 |Hastalık: fhfth |Durumu: Ağır |Islem: Hastaneye sevk
+Ziyareci id:5.İsim: 754_34|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:6.İsim: 6_6|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:2.İsim: ge_hsd|Giriş Tarihi: 2020-06-05|Ziyaret edilen Mahkum ID: 3#
+Mahkum ID:3.isim: 11 1 |Hastalık: hdgh |Durumu: Gözlem altında |Islem: Revirde muayene edilecek
+Mahkum ID:2.isim: 1 1 |Hastalık: fhfth |Durumu: Ağır |Islem: Hastaneye sevk
+Ziyareci id:5.İsim: 754_34|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:6.İsim: 6_6|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:2.İsim: ge_hsd|Giriş Tarihi: 2020-06-05|Ziyaret edilen Mahkum ID: 3#
+Mahkum ID:3.isim: 11 1 |Hastalık: hdgh |Durumu: Ağır |Islem: Hastaneye sevk
+Mahkum ID:2.isim: 1 1 |Hastalık: fhfth |Durumu: Ağır |Islem: Hastaneye sevk
+Ziyareci id:5.İsim: 754_34|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:6.İsim: 6_6|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:2.İsim: ge_hsd|Giriş Tarihi: 2020-06-05|Ziyaret edilen Mahkum ID: 3#
+Mahkum ID:3.isim: 11 1 |Hastalık: hdgh |Durumu: Hafif |Islem: Revirde muayene edilecek
+Mahkum ID:2.isim: 1 1 |Hastalık: fhfth |Durumu: Ağır |Islem: Hastaneye sevk
+Ziyareci id:5.İsim: 754_34|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:6.İsim: 6_6|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:2.İsim: ge_hsd|Giriş Tarihi: 2020-06-05|Ziyaret edilen Mahkum ID: 3#
+Mahkum ID:3.isim: 11 1 |Hastalık: hdgh |Durumu: Ağır |Islem: Hastaneye sevk
+Mahkum ID:2.isim: 1 1 |Hastalık: fhfth |Durumu: Ağır |Islem: Hastaneye sevk
+Ziyareci id:5.İsim: 754_34|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:6.İsim: 6_6|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:2.İsim: ge_hsd|Giriş Tarihi: 2020-06-05|Ziyaret edilen Mahkum ID: 3#
+Mahkum ID:3.isim: 11 1 |Hastalık: hdgh |Durumu: Gözlem altında |Islem: Revirde muayene edilecek
+Mahkum ID:2.isim: 1 1 |Hastalık: fhfth |Durumu: Ağır |Islem: Hastaneye sevk
+Ziyareci id:5.İsim: 754_34|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:6.İsim: 6_6|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:2.İsim: ge_hsd|Giriş Tarihi: 2020-06-05|Ziyaret edilen Mahkum ID: 3#
+Mahkum ID:3.isim: 11 1 |Hastalık: hdgh |Durumu: Ağır |Islem: Hastaneye sevk
+Mahkum ID:2.isim: 1 1 |Hastalık: fhfth |Durumu: Ağır |Islem: Hastaneye sevk
+Ziyareci id:5.İsim: 754_34|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:6.İsim: 6_6|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:2.İsim: ge_hsd|Giriş Tarihi: 2020-06-05|Ziyaret edilen Mahkum ID: 3#
+Mahkum ID:3.isim: 11 1 |Hastalık: hdgh |Durumu: Hafif |Islem: Revirde muayene edilecek
+Mahkum ID:2.isim: 1 1 |Hastalık: fhfth |Durumu: Ağır |Islem: Hastaneye sevk
+Ziyareci id:5.İsim: 754_34|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:6.İsim: 6_6|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:2.İsim: ge_hsd|Giriş Tarihi: 2020-06-05|Ziyaret edilen Mahkum ID: 3#
+Mahkum ID:3.isim: 11 1 |Hastalık: hdgh |Durumu: Ağır |Islem: Hastaneye sevk
+Mahkum ID:2.isim: 1 1 |Hastalık: fhfth |Durumu: Ağır |Islem: Hastaneye sevk
+Ziyareci id:5.İsim: 754_34|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:6.İsim: 6_6|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:2.İsim: ge_hsd|Giriş Tarihi: 2020-06-05|Ziyaret edilen Mahkum ID: 3#
+Mahkum ID:3.isim: 11 1 |Hastalık: hdgh |Durumu: Ağır |Islem: Hastaneye sevk
+Mahkum ID:2.isim: 1 1 |Hastalık: fhfth |Durumu: Ağır |Islem: Hastaneye sevk
+Ziyareci id:5.İsim: 754_34|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:6.İsim: 6_6|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:2.İsim: ge_hsd|Giriş Tarihi: 2020-06-05|Ziyaret edilen Mahkum ID: 3#
+Mahkum ID:3.isim: 11 1 |Hastalık: hdgh |Durumu: Ağır |Islem: Hastaneye sevk
+Mahkum ID:2.isim: 1 1 |Hastalık: fhfth |Durumu: Ağır |Islem: Hastaneye sevk
+Ziyareci id:5.İsim: 754_34|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:6.İsim: 6_6|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:2.İsim: ge_hsd|Giriş Tarihi: 2020-06-05|Ziyaret edilen Mahkum ID: 3#
+Mahkum ID:3.isim: 11 1 |Hastalık: hdgh |Durumu: Hafif |Islem: Revirde muayene edilecek
+Mahkum ID:2.isim: 1 1 |Hastalık: fhfth |Durumu: Ağır |Islem: Hastaneye sevk
+Ziyareci id:5.İsim: 754_34|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:6.İsim: 6_6|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:2.İsim: ge_hsd|Giriş Tarihi: 2020-06-05|Ziyaret edilen Mahkum ID: 3#
+Mahkum ID:3.isim: 11 1 |Hastalık: hdgh |Durumu: Ağır |Islem: Hastaneye sevk
+Mahkum ID:2.isim: 1 1 |Hastalık: fhfth |Durumu: Ağır |Islem: Hastaneye sevk
+Ziyareci id:5.İsim: 754_34|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:6.İsim: 6_6|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:2.İsim: ge_hsd|Giriş Tarihi: 2020-06-05|Ziyaret edilen Mahkum ID: 3#
+Mahkum ID:3.isim: 11 1 |Hastalık: hdgh |Durumu: Gözlem altında |Islem: Revirde muayene edilecek
+Mahkum ID:2.isim: 1 1 |Hastalık: fhfth |Durumu: Ağır |Islem: Hastaneye sevk
+Ziyareci id:5.İsim: 754_34|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:6.İsim: 6_6|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:2.İsim: ge_hsd|Giriş Tarihi: 2020-06-05|Ziyaret edilen Mahkum ID: 3#
+Mahkum ID:3.isim: 11 1 |Hastalık: hdgh |Durumu: Ağır |Islem: Hastaneye sevk
+Mahkum ID:2.isim: 1 1 |Hastalık: fhfth |Durumu: Ağır |Islem: Hastaneye sevk
+Ziyareci id:5.İsim: 754_34|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:6.İsim: 6_6|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:2.İsim: ge_hsd|Giriş Tarihi: 2020-06-05|Ziyaret edilen Mahkum ID: 3#
+Mahkum ID:3.isim: 11 1 |Hastalık: hdgh |Durumu: Hafif |Islem: Revirde muayene edilecek
+Mahkum ID:2.isim: 1 1 |Hastalık: fhfth |Durumu: Ağır |Islem: Hastaneye sevk
+Ziyareci id:5.İsim: 754_34|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:6.İsim: 6_6|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:2.İsim: ge_hsd|Giriş Tarihi: 2020-06-05|Ziyaret edilen Mahkum ID: 3#
+Mahkum ID:3.isim: 11 1 |Hastalık: hdgh |Durumu: Ağır |Islem: Hastaneye sevk
+Mahkum ID:2.isim: 1 1 |Hastalık: fhfth |Durumu: Ağır |Islem: Hastaneye sevk
+Ziyareci id:5.İsim: 754_34|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:6.İsim: 6_6|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:2.İsim: ge_hsd|Giriş Tarihi: 2020-06-05|Ziyaret edilen Mahkum ID: 3#
+Mahkum ID:3.isim: 11 1 |Hastalık: hdgh |Durumu: Gözlem altında |Islem: Revirde muayene edilecek
+Mahkum ID:2.isim: 1 1 |Hastalık: fhfth |Durumu: Ağır |Islem: Hastaneye sevk
+Ziyareci id:5.İsim: 754_34|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:6.İsim: 6_6|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:2.İsim: ge_hsd|Giriş Tarihi: 2020-06-05|Ziyaret edilen Mahkum ID: 3#
+Mahkum ID:3.isim: 11 1 |Hastalık: hdgh |Durumu: Ağır |Islem: Hastaneye sevk
+Mahkum ID:2.isim: 1 1 |Hastalık: fhfth |Durumu: Ağır |Islem: Hastaneye sevk
+Ziyareci id:5.İsim: 754_34|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:6.İsim: 6_6|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:2.İsim: ge_hsd|Giriş Tarihi: 2020-06-05|Ziyaret edilen Mahkum ID: 3#
+Mahkum ID:3.isim: 11 1 |Hastalık: hdgh |Durumu: Hafif |Islem: Revirde muayene edilecek
+Mahkum ID:2.isim: 1 1 |Hastalık: fhfth |Durumu: Ağır |Islem: Hastaneye sevk
+Ziyareci id:5.İsim: 754_34|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:6.İsim: 6_6|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:2.İsim: ge_hsd|Giriş Tarihi: 2020-06-05|Ziyaret edilen Mahkum ID: 3#
+Mahkum ID:3.isim: 11 1 |Hastalık: hdgh |Durumu: Ağır |Islem: Hastaneye sevk
+Mahkum ID:2.isim: 1 1 |Hastalık: fhfth |Durumu: Ağır |Islem: Hastaneye sevk
+Ziyareci id:5.İsim: 754_34|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:6.İsim: 6_6|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:2.İsim: ge_hsd|Giriş Tarihi: 2020-06-05|Ziyaret edilen Mahkum ID: 3#
+Mahkum ID:3.isim: 11 1 |Hastalık: hdgh |Durumu: Gözlem altında |Islem: Revirde muayene edilecek
+Mahkum ID:2.isim: 1 1 |Hastalık: fhfth |Durumu: Ağır |Islem: Hastaneye sevk
+Ziyareci id:5.İsim: 754_34|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:6.İsim: 6_6|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:2.İsim: ge_hsd|Giriş Tarihi: 2020-06-05|Ziyaret edilen Mahkum ID: 3#
+Mahkum ID:3.isim: 11 1 |Hastalık: hdgh |Durumu: Ağır |Islem: Hastaneye sevk
+Mahkum ID:2.isim: 1 1 |Hastalık: fhfth |Durumu: Ağır |Islem: Hastaneye sevk
+Ziyareci id:5.İsim: 754_34|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:6.İsim: 6_6|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:2.İsim: ge_hsd|Giriş Tarihi: 2020-06-05|Ziyaret edilen Mahkum ID: 3#
+Mahkum ID:3.isim: 11 1 |Hastalık: hdgh |Durumu: Hafif |Islem: Revirde muayene edilecek
+Mahkum ID:2.isim: 1 1 |Hastalık: fhfth |Durumu: Ağır |Islem: Hastaneye sevk
+Ziyareci id:5.İsim: 754_34|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:6.İsim: 6_6|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:2.İsim: ge_hsd|Giriş Tarihi: 2020-06-05|Ziyaret edilen Mahkum ID: 3#
+Mahkum ID:3.isim: 11 1 |Hastalık: hdgh |Durumu: Ağır |Islem: Hastaneye sevk
+Mahkum ID:2.isim: 1 1 |Hastalık: fhfth |Durumu: Ağır |Islem: Hastaneye sevk
+Ziyareci id:5.İsim: 754_34|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:6.İsim: 6_6|Giriş Tarihi: 2020-06-04|Ziyaret edilen Mahkum ID: 3#
+Ziyareci id:2.İsim: ge_hsd|Giriş Tarihi: 2020-06-05|Ziyaret edilen Mahkum ID: 3#

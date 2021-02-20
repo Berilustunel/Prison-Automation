@@ -1,0 +1,3 @@
+ID:1.İsim: şevket_oyar | Yaş: 36| Görev Yeri: Koridor |Aylığı: 2000.0| Mesai: 2 |Yevmiye: 1000.0$
+ID:7.İsim: 15151_5151 | Yaş: 515| Görev Yeri: Avlu |Aylığı: 7.8895966E11| Mesai: 5151515 |Yevmiye: 153151.0$
+ID:5.İsim: 6_66   | Yaş: 6| Görev Yeri: Banyo |Aylığı: 236.0| Mesai: 6 |Yevmiye: 10.0$

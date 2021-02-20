@@ -1,0 +1,993 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.collections.FXCollections?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="738.0" prefWidth="902.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="prison.FXMLDocumentController">
+    <children>
+        <Pane fx:id="pnYan" prefHeight="737.0" prefWidth="267.0" style="-fx-background-color: #537776;">
+            <children>
+                <Button fx:id="btnZiyaretgun" layoutX="68.0" layoutY="282.0" onAction="#handleButtonZiyaret" prefHeight="37.0" prefWidth="152.0" text="Ziyaretçi" />
+                <Button fx:id="btnIdare" layoutX="69.0" layoutY="427.0" mnemonicParsing="false" onAction="#handleButtonIP" prefHeight="37.0" prefWidth="152.0" text="İdare" />
+                <Button fx:id="btnRevir" layoutX="69.0" layoutY="493.0" mnemonicParsing="false" onAction="#handleButtonRevir" prefHeight="34.0" prefWidth="152.0" text="Revir" />
+                <Button fx:id="btnMahkum" layoutX="68.0" layoutY="209.0" mnemonicParsing="false" onAction="#handleButtonMahkum" prefHeight="37.0" prefWidth="152.0" text="Mahkum İşlem" />
+                <Button fx:id="Ekonomi" layoutX="69.0" layoutY="563.0" onAction="#handleButtonEkonomi" prefHeight="37.0" prefWidth="152.0" text="Ekonomi" />
+                <Button fx:id="btnNobetListesi" layoutX="69.0" layoutY="630.0" onAction="#handleButtonNobetListesi" prefHeight="37.0" prefWidth="152.0" text="Nöbet Listesi" />
+                <Button fx:id="btnPersonel" layoutX="68.0" layoutY="354.0" mnemonicParsing="false" onAction="#handleButtonPersonel" prefHeight="37.0" prefWidth="152.0" text="Personel" />
+            </children>
+        </Pane>
+        <StackPane layoutX="267.0" layoutY="104.0" prefHeight="634.0" prefWidth="636.0">
+            <children>
+                <Pane fx:id="pnHI" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="634.0" prefWidth="636.0" style="-fx-background-color: #b2b2b2;">
+                    <children>
+                        <Label layoutX="195.0" layoutY="14.0" prefHeight="34.0" prefWidth="247.0" text="HİZMETLİ İŞLEMLERİ">
+                            <font>
+                                <Font name="System Bold" size="23.0" />
+                            </font>
+                        </Label>
+                        <Line endX="530.0" layoutX="106.0" layoutY="56.0" startX="-106.0" />
+                        <Line endX="29.000030517578125" endY="431.0" layoutX="289.0" layoutY="203.0" startX="28.699951171875" startY="-147.29290771484375" />
+                        <Label layoutX="120.0" layoutY="68.0" prefHeight="30.0" prefWidth="102.0" text="Hizmetli" underline="true">
+                            <font>
+                                <Font size="20.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="403.0" layoutY="68.0" prefHeight="30.0" prefWidth="166.0" text="Hizmetli Kayıtları" underline="true">
+                            <font>
+                                <Font size="20.0" />
+                            </font>
+                        </Label>
+                        <TextField fx:id="txtHIsim" layoutX="120.0" layoutY="115.0" />
+                        <TextField fx:id="txtHSoyIsim" layoutX="121.0" layoutY="179.0" />
+                        <TextField fx:id="txtHYas" layoutX="121.0" layoutY="241.0" />
+                        <Text layoutX="23.0" layoutY="196.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Soyisim:" wrappingWidth="60.58709716796881" />
+                        <Text layoutX="35.0" layoutY="258.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Yaş:" wrappingWidth="38.98712158203131" />
+                        <Text layoutX="15.0" layoutY="322.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Görev Yeri" wrappingWidth="77.3871459960938" />
+                        <Text layoutX="35.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" text="İsim:" wrappingWidth="38.98712158203131" />
+                        <Button fx:id="btnHKayitEkle" layoutX="104.0" layoutY="525.0" mnemonicParsing="false" onAction="#handleButtonHKC" prefHeight="26.0" prefWidth="134.0" text="Kayıt Ekle" />
+                        <TextArea fx:id="txtAHKayitlari" editable="false" layoutX="319.0" layoutY="111.0" prefHeight="187.0" prefWidth="316.0" />
+                        <Button fx:id="btnHYenile" layoutX="442.0" layoutY="317.0" mnemonicParsing="false" onAction="#handleButtonHKayitListele" text="Yenile" />
+                        <Text layoutX="343.0" layoutY="369.0" strokeType="OUTSIDE" strokeWidth="0.0" text="İşlem yapmak istediğiniz gardiyanın numarasını giriniz:" underline="true" wrappingWidth="267.73663330078125" />
+                        <Text layoutX="343.0" layoutY="426.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID:" />
+                        <TextField fx:id="txtHId" layoutX="379.0" layoutY="408.0" prefHeight="26.0" prefWidth="63.0" />
+                        <Button fx:id="btnHKick" layoutX="477.0" layoutY="409.0" mnemonicParsing="false" onAction="#handleButtonHKD" text="Kayıt Sil" />
+                        <Text layoutX="338.0" layoutY="470.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Görev yeri değişimi istiyorsanız aşağıdan seçiniz." underline="true" wrappingWidth="255.99996337890627" />
+                        <Label layoutX="338.0" layoutY="479.0" text="Görev Yeri:">
+                            <font>
+                                <Font name="System Bold" size="12.0" />
+                            </font>
+                        </Label>
+                        <Text layoutX="353.0" layoutY="556.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Zam yapmak için yeni Yevmiye miktarını girin:" wrappingWidth="247.0" />
+                        <TextField fx:id="txtHZam" layoutX="343.0" layoutY="581.0" prefHeight="26.0" prefWidth="102.0" />
+                        <Button fx:id="btnHDegisim" layoutX="450.0" layoutY="506.0" mnemonicParsing="false" onAction="#handleButtonHKUGorev" prefHeight="26.0" prefWidth="113.0" text="Değişimi Uygula" />
+                        <Text layoutX="23.0" layoutY="376.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mesai:" wrappingWidth="38.98712158203131" />
+                        <Text layoutX="15.0" layoutY="418.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Yevmiye:" wrappingWidth="55.0" />
+                        <TextField fx:id="txtHMesai" layoutX="120.0" layoutY="356.0" />
+                        <TextField fx:id="txtHYevmiye" layoutX="120.0" layoutY="401.0" />
+                        <ComboBox fx:id="cboxHGorevYeri" layoutX="119.0" layoutY="305.0" prefWidth="150.0">
+                            <items>
+                                <FXCollections fx:factory="observableArrayList">
+                                    <String fx:value="WC" />
+                                    <String fx:value="Banyo" />
+                                    <String fx:value="Koridor" />
+                                    <String fx:value="Koğuşlar" />
+                                    <String fx:value="Avlu" />
+                                </FXCollections>
+                            </items>
+                        </ComboBox>
+                        <ComboBox fx:id="cboxHGorevYeriD" layoutX="431.0" layoutY="475.0" prefWidth="150.0">
+                            <items>
+                                <FXCollections fx:factory="observableArrayList">
+                                    <String fx:value="WC" />
+                                    <String fx:value="Banyo" />
+                                    <String fx:value="Koridor" />
+                                    <String fx:value="Koğuşlar" />
+                                    <String fx:value="Avlu" />
+                                </FXCollections>
+                            </items>
+                        </ComboBox>
+                        <Button fx:id="btnHZam" layoutX="506.0" layoutY="582.0" mnemonicParsing="false" onAction="#handleButtonHKUMaas" text="Zam Yap" />
+                        <ComboBox fx:id="cboxHId" layoutX="119.0" layoutY="453.0" prefHeight="25.0" prefWidth="77.0">
+                            <items>
+                                <FXCollections fx:factory="observableArrayList">
+                                    <String fx:value="1" />
+                                    <String fx:value="2" />
+                                    <String fx:value="3" />
+                                    <String fx:value="4" />
+                                    <String fx:value="5" />
+                                    <String fx:value="6" />
+                                    <String fx:value="7" />
+                                </FXCollections>
+                            </items>
+                        </ComboBox>
+                        <Text layoutX="23.0" layoutY="470.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID:" wrappingWidth="38.98712158203131" />
+                    </children>
+                </Pane>
+                <Pane fx:id="pnYPI" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="634.0" prefWidth="636.0" style="-fx-background-color: #b2b2b2;">
+                    <children>
+                        <Label layoutX="145.0" layoutY="14.0" prefHeight="34.0" prefWidth="347.0" text="YEMEKHANE PERSONELİ İŞLEM">
+                            <font>
+                                <Font name="System Bold" size="23.0" />
+                            </font>
+                        </Label>
+                        <Line endX="530.0" endY="-1.9073486328125E-5" layoutX="106.0" layoutY="56.0" startX="-106.0" startY="-3.0517578125E-5" />
+                        <Line endX="29.000030517578125" endY="431.0" layoutX="289.0" layoutY="203.0" startX="28.699951171875" startY="-147.29290771484375" />
+                        <Label layoutX="68.0" layoutY="68.0" prefHeight="30.0" prefWidth="200.0" text="Yemekhane Personeli" underline="true">
+                            <font>
+                                <Font size="20.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="422.0" layoutY="68.0" prefHeight="30.0" prefWidth="128.0" text="Personel Kayıt" underline="true">
+                            <font>
+                                <Font size="20.0" />
+                            </font>
+                        </Label>
+                        <TextField fx:id="txtYPIsim" layoutX="120.0" layoutY="115.0" />
+                        <TextField fx:id="txtYPSoyIsim" layoutX="121.0" layoutY="179.0" />
+                        <TextField fx:id="txtYPYas" layoutX="121.0" layoutY="241.0" />
+                        <Text layoutX="24.0" layoutY="183.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Soyisim:" wrappingWidth="60.58709716796881" />
+                        <Text layoutX="35.0" layoutY="258.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Yaş:" wrappingWidth="38.98712158203131" />
+                        <Text layoutX="15.0" layoutY="322.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Görev Yeri" wrappingWidth="77.3871459960938" />
+                        <Text layoutX="35.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" text="İsim:" wrappingWidth="38.98712158203131" />
+                        <Button fx:id="btnYPKayitEkle" layoutX="101.0" layoutY="520.0" mnemonicParsing="false" onAction="#handleButtonYPKC" prefHeight="26.0" prefWidth="134.0" text="Kayıt Ekle" />
+                        <TextArea fx:id="txtAYPKayitlari" editable="false" layoutX="319.0" layoutY="111.0" prefHeight="187.0" prefWidth="316.0" />
+                        <Button fx:id="btnYPYenile" layoutX="453.0" layoutY="317.0" mnemonicParsing="false" onAction="#handleButtonYPKayitListele" text="Yenile" />
+                        <Text layoutX="343.0" layoutY="369.0" strokeType="OUTSIDE" strokeWidth="0.0" text="İşlem yapmak istediğiniz gardiyanın numarasını giriniz:" underline="true" wrappingWidth="267.73663330078125" />
+                        <Text layoutX="393.0" layoutY="426.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID:" />
+                        <TextField fx:id="txtYPId" layoutX="435.0" layoutY="409.0" prefHeight="26.0" prefWidth="63.0" />
+                        <Text layoutX="338.0" layoutY="470.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Görev yeri değişimi istiyorsanız aşağıdan seçiniz." underline="true" wrappingWidth="255.99996337890627" />
+                        <Label layoutX="338.0" layoutY="480.0" text="Görev Yeri:">
+                            <font>
+                                <Font name="System Bold" size="12.0" />
+                            </font>
+                        </Label>
+                        <Text layoutX="353.0" layoutY="559.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Zam yapmak için yeni Yevmiye miktarını girin:" wrappingWidth="247.0" />
+                        <TextField fx:id="txtYPZam" layoutX="338.0" layoutY="577.0" prefHeight="26.0" prefWidth="102.0" />
+                        <Button fx:id="btnYPDegisim" layoutX="430.0" layoutY="509.0" mnemonicParsing="false" onAction="#handleButtonYPKUGorev" prefHeight="26.0" prefWidth="113.0" text="Değişimi Uygula" />
+                        <Button fx:id="btnYPKick" layoutX="517.0" layoutY="410.0" mnemonicParsing="false" onAction="#handleYPKD" prefHeight="25.0" prefWidth="97.0" text="İşten Çıkar" underline="true" />
+                        <Text layoutX="32.0" layoutY="373.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mesai:" wrappingWidth="38.98712158203131" />
+                        <Text layoutX="24.0" layoutY="418.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Yevmiye:" wrappingWidth="55.0" />
+                        <TextField fx:id="txtYPMesai" layoutX="121.0" layoutY="356.0" />
+                        <TextField fx:id="txtYPYevmiye" layoutX="121.0" layoutY="401.0" />
+                        <ComboBox fx:id="cboxYPGorevYeri" layoutX="120.0" layoutY="305.0" prefWidth="150.0">
+                            <items>
+                                <FXCollections fx:factory="observableArrayList">
+                                    <String fx:value="Bulaşık" />
+                                    <String fx:value="Kantin" />
+                                    <String fx:value="Servis" />
+                                    <String fx:value="Depo" />
+                                </FXCollections>
+                            </items>
+                        </ComboBox>
+                        <ComboBox fx:id="cboxYPGorevYeriD" layoutX="415.0" layoutY="476.0" prefWidth="150.0">
+                            <items>
+                                <FXCollections fx:factory="observableArrayList">
+                                    <String fx:value="Bulaşık" />
+                                    <String fx:value="Kantin" />
+                                    <String fx:value="Servis" />
+                                    <String fx:value="Depo" />
+                                </FXCollections>
+                            </items>
+                        </ComboBox>
+                        <Button fx:id="btnYPZam" layoutX="491.0" layoutY="578.0" mnemonicParsing="false" onAction="#handleButtonYPKUMaas" text="Zam Yap" />
+                        <ComboBox fx:id="cboxYPId" layoutX="119.0" layoutY="461.0" prefHeight="25.0" prefWidth="71.0">
+                            <items>
+                                <FXCollections fx:factory="observableArrayList">
+                                    <String fx:value="1" />
+                                    <String fx:value="2" />
+                                    <String fx:value="3" />
+                                    <String fx:value="4" />
+                                    <String fx:value="5" />
+                                    <String fx:value="6" />
+                                    <String fx:value="7" />
+                                    <String fx:value="8" />
+                                    <String fx:value="9" />
+                                    <String fx:value="10" />
+                                </FXCollections>
+                            </items>
+                        </ComboBox>
+                        <Text layoutX="24.0" layoutY="478.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID:" wrappingWidth="38.98712158203131" />
+                    </children>
+                </Pane>
+                <Pane fx:id="pnGI" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="634.0" prefWidth="636.0" style="-fx-background-color: #b2b2b2;">
+                    <children>
+                        <Label layoutX="197.0" layoutY="14.0" prefHeight="34.0" prefWidth="247.0" text="GARDİYAN İŞLEMLERİ">
+                            <font>
+                                <Font name="System Bold" size="23.0" />
+                            </font>
+                        </Label>
+                        <Line endX="528.0" layoutX="108.0" layoutY="48.0" startX="-108.0" />
+                        <Line endX="28.699951171875" endY="438.39996337890625" layoutX="291.0" layoutY="196.0" startX="28.699951171875" startY="-147.29290771484375" />
+                        <TextField fx:id="txtGIsim" layoutX="123.0" layoutY="114.0" />
+                        <Text layoutX="30.0" layoutY="131.0" strokeType="OUTSIDE" strokeWidth="0.0" text="İsim:" wrappingWidth="34.828125" />
+                        <Text layoutX="16.0" layoutY="186.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Soyisim:" wrappingWidth="62.15625" />
+                        <Text layoutX="18.0" layoutY="243.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Yaş:" wrappingWidth="34.828125" />
+                        <Text layoutX="18.0" layoutY="303.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Görev Yeri:" wrappingWidth="76.69140625" />
+                        <TextField fx:id="txtGSoyIsim" layoutX="123.0" layoutY="169.0" />
+                        <TextField fx:id="txtGYas" layoutX="123.0" layoutY="226.0" />
+                        <Button fx:id="btnGKayitEkle" layoutX="95.0" layoutY="521.0" mnemonicParsing="false" onAction="#handleButtonGKC" prefHeight="26.0" prefWidth="94.0" text="Kayıt Ekle" />
+                        <Label layoutX="76.0" layoutY="58.0" prefHeight="30.0" prefWidth="102.0" text="GARDİYAN" underline="true">
+                            <font>
+                                <Font size="20.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="393.0" layoutY="58.0" prefHeight="30.0" prefWidth="166.0" text="Gardiyan Kayıtları" underline="true">
+                            <font>
+                                <Font size="20.0" />
+                            </font>
+                        </Label>
+                        <TextArea fx:id="txtAGKayitlari" editable="false" layoutX="325.0" layoutY="101.0" prefHeight="187.0" prefWidth="309.0" />
+                        <Button fx:id="btnGYenile" layoutX="451.0" layoutY="311.0" mnemonicParsing="false" onAction="#handleButtonGKayitListele" text="Yenile" />
+                        <Text layoutX="360.0" layoutY="355.0" strokeType="OUTSIDE" strokeWidth="0.0" text="İşlem yapmak istediğiniz gardiyanın numarasını giriniz:" underline="true" wrappingWidth="215.73663330078125" />
+                        <Text layoutX="349.0" layoutY="417.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID:" wrappingWidth="25.640625" />
+                        <TextField fx:id="txtGId" layoutX="405.0" layoutY="400.0" prefHeight="26.0" prefWidth="63.0" />
+                        <Button fx:id="btnGKick" layoutX="495.0" layoutY="401.0" mnemonicParsing="false" onAction="#handleButtonGKD" text="İşten Çıkar" />
+                        <Text layoutX="344.0" layoutY="453.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Görev yeri değişimi istiyorsanız aşağıdan seçiniz." underline="true" wrappingWidth="184.80001220703127" />
+                        <Label layoutX="350.0" layoutY="494.0" prefHeight="17.0" prefWidth="74.0" text="Görev Yeri:">
+                            <font>
+                                <Font name="System Bold" size="12.0" />
+                            </font>
+                        </Label>
+                        <TextField fx:id="txtGZam" layoutX="342.0" layoutY="594.0" prefHeight="26.0" prefWidth="102.0" />
+                        <Button fx:id="btnGDegisim" layoutX="424.0" layoutY="521.0" mnemonicParsing="false" onAction="#handleButtonGKUGorev" prefHeight="26.0" prefWidth="113.0" text="Değişimi Uygula" />
+                        <ComboBox fx:id="cboxGGorevYeri" layoutX="122.0" layoutY="286.0" prefWidth="150.0">
+                            <items>
+                                <FXCollections fx:factory="observableArrayList">
+                                    <String fx:value="Koğuş" />
+                                    <String fx:value="Hücre" />
+                                    <String fx:value="Güvenlik Odası" />
+                                    <String fx:value="Giriş" />
+                                    <String fx:value="Avlu" />
+                                    <String fx:value="Ofis" />
+                                    <String fx:value="Revir" />
+                                </FXCollections>
+                            </items>
+                        </ComboBox>
+                        <Text layoutX="18.0" layoutY="355.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mesai:" wrappingWidth="34.828125" />
+                        <Text layoutX="14.0" layoutY="405.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Yevmiye:" wrappingWidth="47.787109375" />
+                        <TextField fx:id="txtGMesai" layoutX="123.0" layoutY="338.0" />
+                        <TextField fx:id="txtGYevmiye" layoutX="123.0" layoutY="388.0" />
+                        <Text layoutX="343.0" layoutY="567.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Zam hesabı için yeni yevmiye miktarını girin:" wrappingWidth="174.0" />
+                        <Button fx:id="btnGZam" layoutX="498.0" layoutY="595.0" mnemonicParsing="false" onAction="#handleButtonGKUMaas" text="Zam yap" />
+                        <ComboBox fx:id="cboxGGorevYeriD" layoutX="424.0" layoutY="490.0" prefWidth="150.0">
+                            <items>
+                                <FXCollections fx:factory="observableArrayList">
+                                    <String fx:value="Koğuş" />
+                                    <String fx:value="Hücre" />
+                                    <String fx:value="Güvenlik Odası" />
+                                    <String fx:value="Giriş" />
+                                    <String fx:value="Avlu" />
+                                    <String fx:value="Ofis" />
+                                    <String fx:value="Revir" />
+                                </FXCollections>
+                            </items>
+                        </ComboBox>
+                        <Text layoutX="30.0" layoutY="474.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID:" />
+                        <ComboBox fx:id="cboxGId" layoutX="127.0" layoutY="457.0" prefHeight="25.0" prefWidth="63.0">
+                            <items>
+                                <FXCollections fx:factory="observableArrayList">
+                                    <String fx:value="1" />
+                                    <String fx:value="2" />
+                                    <String fx:value="3" />
+                                    <String fx:value="4" />
+                                    <String fx:value="5" />
+                                    <String fx:value="6" />
+                                    <String fx:value="7" />
+                                    <String fx:value="8" />
+                                    <String fx:value="9" />
+                                    <String fx:value="10" />
+                                </FXCollections>
+                            </items>
+                        </ComboBox>
+                    </children>
+                </Pane>
+                <Pane fx:id="pnZiyaret" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="634.0" prefWidth="636.0" style="-fx-background-color: #b2b2b2;">
+                    <children>
+                        <Label layoutX="252.0" layoutY="14.0" prefHeight="34.0" prefWidth="125.0" text="ZİYARETÇİ">
+                            <font>
+                                <Font name="System Bold" size="23.0" />
+                            </font>
+                        </Label>
+                        <Line endX="535.0000610351562" layoutX="100.0" layoutY="56.0" startX="-100.0" />
+                        <Line endX="21.499908447265625" endY="438.0" layoutX="294.0" layoutY="194.0" startX="21.49993896484375" startY="-137.29290771484375" />
+                        <Text layoutX="14.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" text="İsim:" />
+                        <Text layoutX="16.0" layoutY="145.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Soyisim:" />
+                        <Text layoutX="14.0" layoutY="242.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mahkum id:" />
+                        <Text layoutX="16.0" layoutY="191.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID:" />
+                        <Text layoutX="16.0" layoutY="295.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Giriş tarihi:" />
+                        <DatePicker fx:id="dpZ" layoutX="123.0" layoutY="278.0" />
+                        <ComboBox fx:id="cboxZId" layoutX="135.0" layoutY="174.0" prefHeight="25.0" prefWidth="77.0">
+                            <items>
+                                <FXCollections fx:factory="observableArrayList">
+                                    <String fx:value="1" />
+                                    <String fx:value="2" />
+                                    <String fx:value="3" />
+                                    <String fx:value="4" />
+                                    <String fx:value="5" />
+                                    <String fx:value="6" />
+                                    <String fx:value="7" />
+                                    <String fx:value="8" />
+                                    <String fx:value="9" />
+                                    <String fx:value="10" />
+                                    <String fx:value="11" />
+                                    <String fx:value="12" />
+                                    <String fx:value="13" />
+                                    <String fx:value="14" />
+                                    <String fx:value="15" />
+                                    <String fx:value="16" />
+                                    <String fx:value="17" />
+                                    <String fx:value="18" />
+                                    <String fx:value="19" />
+                                    <String fx:value="20" />
+                                    <String fx:value="21" />
+                                    <String fx:value="22" />
+                                    <String fx:value="23" />
+                                    <String fx:value="24" />
+                                    <String fx:value="25" />
+                                    <String fx:value="26" />
+                                    <String fx:value="27" />
+                                    <String fx:value="28" />
+                                    <String fx:value="29" />
+                                    <String fx:value="30" />
+                                    <String fx:value="31" />
+                                    <String fx:value="32" />
+                                    <String fx:value="33" />
+                                    <String fx:value="34" />
+                                    <String fx:value="35" />
+                                    <String fx:value="36" />
+                                    <String fx:value="37" />
+                                    <String fx:value="38" />
+                                    <String fx:value="39" />
+                                    <String fx:value="40" />
+                                    <String fx:value="41" />
+                                    <String fx:value="42" />
+                                    <String fx:value="43" />
+                                    <String fx:value="44" />
+                                    <String fx:value="45" />
+                                    <String fx:value="46" />
+                                    <String fx:value="47" />
+                                    <String fx:value="48" />
+                                    <String fx:value="49" />
+                                    <String fx:value="50" />
+                                    <String fx:value="51" />
+                                    <String fx:value="52" />
+                                    <String fx:value="53" />
+                                    <String fx:value="54" />
+                                    <String fx:value="55" />
+                                    <String fx:value="56" />
+                                    <String fx:value="57" />
+                                    <String fx:value="58" />
+                                    <String fx:value="59" />
+                                    <String fx:value="60" />
+                                </FXCollections>
+                            </items>
+                        </ComboBox>
+                        <ComboBox fx:id="cboxZMId" layoutX="135.0" layoutY="225.0" prefHeight="25.0" prefWidth="77.0">
+                            <items>
+                                <FXCollections fx:factory="observableArrayList">
+                                    <String fx:value="1" />
+                                    <String fx:value="2" />
+                                    <String fx:value="3" />
+                                    <String fx:value="4" />
+                                    <String fx:value="5" />
+                                    <String fx:value="6" />
+                                    <String fx:value="7" />
+                                    <String fx:value="8" />
+                                    <String fx:value="9" />
+                                    <String fx:value="10" />
+                                    <String fx:value="11" />
+                                    <String fx:value="12" />
+                                    <String fx:value="13" />
+                                    <String fx:value="14" />
+                                    <String fx:value="15" />
+                                    <String fx:value="16" />
+                                    <String fx:value="17" />
+                                    <String fx:value="18" />
+                                    <String fx:value="19" />
+                                    <String fx:value="20" />
+                                    <String fx:value="21" />
+                                    <String fx:value="22" />
+                                    <String fx:value="23" />
+                                    <String fx:value="24" />
+                                    <String fx:value="25" />
+                                    <String fx:value="26" />
+                                    <String fx:value="27" />
+                                    <String fx:value="28" />
+                                    <String fx:value="29" />
+                                    <String fx:value="30" />
+                                    <String fx:value="31" />
+                                    <String fx:value="32" />
+                                    <String fx:value="33" />
+                                    <String fx:value="34" />
+                                    <String fx:value="35" />
+                                    <String fx:value="36" />
+                                    <String fx:value="37" />
+                                    <String fx:value="38" />
+                                    <String fx:value="39" />
+                                    <String fx:value="40" />
+                                </FXCollections>
+                            </items>
+                        </ComboBox>
+                        <TextField fx:id="txtZSoyisim" layoutX="136.0" layoutY="128.0" />
+                        <TextField fx:id="txtZIsim" layoutX="136.0" layoutY="79.0" />
+                        <Text layoutX="407.0" layoutY="99.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ziyaretçi Listesi" underline="true" wrappingWidth="152.0">
+                            <font>
+                                <Font name="System Bold" size="21.0" />
+                            </font>
+                        </Text>
+                        <TextArea fx:id="txtAZ" editable="false" layoutX="321.0" layoutY="117.0" prefHeight="387.0" prefWidth="309.0" />
+                        <Button fx:id="btnZYenile" layoutX="450.0" layoutY="548.0" mnemonicParsing="false" onAction="#handleButtonZiyaretciR" text="Yenile" />
+                        <Button fx:id="btnZKayit" layoutX="123.0" layoutY="344.0" mnemonicParsing="false" onAction="#handleButtonZiyaretciKayit" text="Kayıt Oluştur" />
+                    </children>
+                </Pane>
+                <Pane fx:id="pnIP" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="634.0" prefWidth="636.0" style="-fx-background-color: #b2b2b2;">
+                    <children>
+                        <Label layoutX="179.0" layoutY="14.0" prefHeight="34.0" prefWidth="276.0" text="İDARE PERSONELİ İŞLEM">
+                            <font>
+                                <Font name="System Bold" size="23.0" />
+                            </font>
+                        </Label>
+                        <Line endX="530.0000610351562" layoutX="106.0" layoutY="56.0" startX="-106.0" startY="-1.52587890625E-5" />
+                        <Line endX="29.000030517578125" endY="431.0" layoutX="289.0" layoutY="203.0" startX="28.699951171875" startY="-147.29290771484375" />
+                        <Label layoutX="101.0" layoutY="68.0" prefHeight="30.0" prefWidth="134.0" text="İdare Personeli" underline="true">
+                            <font>
+                                <Font size="20.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="403.0" layoutY="68.0" prefHeight="30.0" prefWidth="166.0" text="Personel Kayıtları" underline="true">
+                            <font>
+                                <Font size="20.0" />
+                            </font>
+                        </Label>
+                        <TextField fx:id="txtIPIsim" layoutX="120.0" layoutY="115.0" />
+                        <TextField fx:id="txtIPSoyIsim" layoutX="121.0" layoutY="166.0" />
+                        <TextField fx:id="txtIPYas" layoutX="121.0" layoutY="241.0" />
+                        <Text layoutX="24.0" layoutY="183.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Soyisim:" wrappingWidth="60.58709716796881" />
+                        <Text layoutX="35.0" layoutY="258.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Yaş:" wrappingWidth="38.98712158203131" />
+                        <Text layoutX="23.0" layoutY="477.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID:" wrappingWidth="24.12890625" />
+                        <Text layoutX="15.0" layoutY="322.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Görev Yeri" wrappingWidth="77.3871459960938" />
+                        <Text layoutX="35.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" text="İsim:" wrappingWidth="38.98712158203131" />
+                        <Button fx:id="btnIPKayitEkle" layoutX="101.0" layoutY="520.0" mnemonicParsing="false" onAction="#handleButtonIPKC" prefHeight="26.0" prefWidth="134.0" text="Kayıt Ekle" />
+                        <TextArea fx:id="txtAIPKayitlari" editable="false" layoutX="319.0" layoutY="111.0" prefHeight="187.0" prefWidth="316.0" />
+                        <Button fx:id="btnIPYenile" layoutX="442.0" layoutY="317.0" mnemonicParsing="false" onAction="#handleButtoniPKayitListele" text="Yenile" />
+                        <Text layoutX="343.0" layoutY="369.0" strokeType="OUTSIDE" strokeWidth="0.0" text="İşlem yapmak istediğiniz gardiyanın numarasını giriniz:" underline="true" wrappingWidth="267.73663330078125" />
+                        <Text layoutX="343.0" layoutY="426.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID:" />
+                        <TextField fx:id="txtIPId" layoutX="379.0" layoutY="408.0" prefHeight="26.0" prefWidth="63.0" />
+                        <Button fx:id="btnIPKick" layoutX="477.0" layoutY="409.0" mnemonicParsing="false" onAction="#handleIPKD" text="Kaydı Sil" />
+                        <Text layoutX="338.0" layoutY="470.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Görev yeri değişimi istiyorsanız aşağıdan seçiniz." underline="true" wrappingWidth="255.99996337890627" />
+                        <Label layoutX="338.0" layoutY="479.0" text="Görev Yeri:">
+                            <font>
+                                <Font name="System Bold" size="12.0" />
+                            </font>
+                        </Label>
+                        <TextField fx:id="txtIPZam" layoutX="338.0" layoutY="584.0" prefHeight="26.0" prefWidth="102.0" />
+                        <Button fx:id="btnIPDegisim" layoutX="394.0" layoutY="508.0" mnemonicParsing="false" onAction="#handleButtonIPKUGorev" prefHeight="26.0" prefWidth="113.0" text="Değişimi Uygula" />
+                        <Button fx:id="btnIPZam" layoutX="490.0" layoutY="584.0" mnemonicParsing="false" onAction="#handleButtonIPKUMaas" prefHeight="25.0" prefWidth="97.0" text="Zam Yap" underline="true" />
+                        <Text layoutX="27.0" layoutY="368.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mesai:" wrappingWidth="38.98712158203131" />
+                        <Text layoutX="15.0" layoutY="418.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Yevmiye:" wrappingWidth="63.0" />
+                        <TextField fx:id="txtIPMesai" layoutX="122.0" layoutY="351.0" />
+                        <TextField fx:id="txtIPYevmiye" layoutX="121.0" layoutY="397.0" />
+                        <ComboBox fx:id="cboxIPGorevYeri" layoutX="121.0" layoutY="305.0" prefWidth="150.0">
+                            <items>
+                                <FXCollections fx:factory="observableArrayList">
+                                    <String fx:value="Müdüriyet" />
+                                    <String fx:value="Savcı" />
+                                    <String fx:value="Yazı işleri" />
+                                </FXCollections>
+                            </items>
+                        </ComboBox>
+                        <ComboBox fx:id="cboxIPGorevYeriD" layoutX="432.0" layoutY="475.0" prefWidth="150.0">
+                            <items>
+                                <FXCollections fx:factory="observableArrayList">
+                                    <String fx:value="Müdüriyet" />
+                                    <String fx:value="Savcı" />
+                                    <String fx:value="Yazı işleri" />
+                                </FXCollections>
+                            </items>
+                        </ComboBox>
+                        <Text layoutX="338.0" layoutY="559.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Zam yapmak için yeni Yevmiye miktarını girin:" underline="true" wrappingWidth="255.99996337890627" />
+                        <ComboBox fx:id="cboxIPId" layoutX="120.0" layoutY="460.0" prefHeight="25.0" prefWidth="71.0">
+                            <items>
+                                <FXCollections fx:factory="observableArrayList">
+                                    <String fx:value="1" />
+                                    <String fx:value="2" />
+                                    <String fx:value="3" />
+                                    <String fx:value="4" />
+                                    <String fx:value="5" />
+                                    <String fx:value="6" />
+                                    <String fx:value="7" />
+                                    <String fx:value="8" />
+                                    <String fx:value="9" />
+                                    <String fx:value="10" />
+                                </FXCollections>
+                            </items>
+                        </ComboBox>
+                    </children>
+                </Pane>
+                <Pane fx:id="pnEkonomi" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="634.0" prefWidth="636.0" style="-fx-background-color: #b2b2b2;">
+                    <children>
+                        <Label layoutX="202.0" layoutY="24.0" prefHeight="34.0" prefWidth="232.0" text="Ekonomi İşlemleri">
+                            <font>
+                                <Font name="System Bold" size="23.0" />
+                            </font>
+                        </Label>
+                        <Line endX="511.0" endY="-1.52587890625E-5" layoutX="125.0" layoutY="58.0" startX="-116.7071533203125" />
+                        <Line endX="12.89288330078125" endY="432.0" layoutX="295.0" layoutY="196.0" startX="12.89288330078125" startY="-137.5" />
+                        <Label layoutX="95.0" layoutY="65.0" prefHeight="26.0" prefWidth="125.0" text="KATKI" underline="true">
+                            <font>
+                                <Font size="17.0" />
+                            </font>
+                        </Label>
+                        <Text layoutX="4.0" layoutY="382.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ödenek miktarını giriniz:" wrappingWidth="174.00001092756247" />
+                        <Text layoutX="5.0" layoutY="471.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Brüt Gelir:" wrappingWidth="104.9975623584744" />
+                        <Text layoutX="5.0" layoutY="551.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Net Gelir:" wrappingWidth="89.10400349877091" />
+                        <Text layoutX="318.0" layoutY="117.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fatura tutarını giriniz: " wrappingWidth="134.00000158069565" />
+                        <Text layoutX="318.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bakım tutarını giriniz: " wrappingWidth="105.00000542254156" />
+                        <Text layoutX="318.0" layoutY="267.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gider:" wrappingWidth="83.27655029296875" />
+                        <TextField fx:id="txtBrutGelir" editable="false" layoutX="190.0" layoutY="450.0" prefHeight="28.0" prefWidth="113.0" />
+                        <TextField fx:id="txtNetGelir" editable="false" layoutX="190.0" layoutY="566.0" prefHeight="31.0" prefWidth="113.0" />
+                        <TextField fx:id="txtFatura" layoutX="494.0" layoutY="100.0" prefHeight="31.0" prefWidth="113.0" />
+                        <TextField fx:id="txtGider" editable="false" layoutX="494.0" layoutY="248.0" prefHeight="31.0" prefWidth="113.0" />
+                        <Text layoutX="318.0" layoutY="382.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Yeni Bakiye:" wrappingWidth="105.00000542254156" />
+                        <Label layoutX="5.0" layoutY="315.0" prefHeight="37.0" prefWidth="105.0" text="Kazanılan Para:" />
+                        <TextField fx:id="txtOdenek" layoutX="190.0" layoutY="361.0" prefHeight="31.0" prefWidth="113.0" />
+                        <TextField fx:id="txtBrutgKP" editable="false" layoutX="190.0" layoutY="318.0" onAction="#handleButtonKatki" prefHeight="31.0" prefWidth="113.0" />
+                        <TextField fx:id="txtBakim" layoutX="494.0" layoutY="157.0" prefHeight="31.0" prefWidth="113.0" />
+                        <TextField fx:id="txtYeniBakiye" editable="false" layoutX="499.0" layoutY="402.0" prefHeight="31.0" prefWidth="113.0" />
+                        <Label layoutX="95.0" layoutY="290.0" prefHeight="21.0" prefWidth="97.0" text="BRÜT GELİR" underline="true">
+                            <font>
+                                <Font size="17.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="95.0" layoutY="492.0" prefHeight="21.0" prefWidth="97.0" text="NET GELİR" underline="true">
+                            <font>
+                                <Font size="17.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="416.0" layoutY="65.0" prefHeight="21.0" prefWidth="78.0" text="GİDER" underline="true">
+                            <font>
+                                <Font size="17.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="391.0" layoutY="290.0" prefHeight="21.0" prefWidth="128.0" text="GÜNCEL BAKİYE" underline="true">
+                            <font>
+                                <Font size="17.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="4.0" layoutY="91.0" prefHeight="30.0" prefWidth="174.0" text="El işini yapan kişi sayısı:" />
+                        <ComboBox fx:id="cboxElisi" layoutX="208.0" layoutY="85.0" prefHeight="31.0" prefWidth="94.0">
+                            <items>
+                                <FXCollections fx:factory="observableArrayList">
+                                    <String fx:value="1" />
+                                    <String fx:value="2" />
+                                    <String fx:value="3" />
+                                    <String fx:value="4" />
+                                    <String fx:value="5" />
+                                    <String fx:value="6" />
+                                    <String fx:value="7" />
+                                    <String fx:value="8" />
+                                    <String fx:value="9" />
+                                    <String fx:value="10" />
+                                    <String fx:value="11" />
+                                    <String fx:value="12" />
+                                    <String fx:value="13" />
+                                    <String fx:value="14" />
+                                    <String fx:value="15" />
+                                </FXCollections>
+                            </items>
+                        </ComboBox>
+                        <Label layoutX="2.0" layoutY="130.0" prefHeight="26.0" prefWidth="186.0" text="Sanat işini yapan kişi sayısı:" />
+                        <ComboBox fx:id="cboxSanatisi" layoutX="208.0" layoutY="125.0" prefHeight="28.0" prefWidth="94.0">
+                            <items>
+                                <FXCollections fx:factory="observableArrayList">
+                                    <String fx:value="1" />
+                                    <String fx:value="2" />
+                                    <String fx:value="3" />
+                                    <String fx:value="4" />
+                                    <String fx:value="5" />
+                                    <String fx:value="6" />
+                                    <String fx:value="7" />
+                                    <String fx:value="8" />
+                                    <String fx:value="9" />
+                                    <String fx:value="10" />
+                                    <String fx:value="11" />
+                                    <String fx:value="12" />
+                                    <String fx:value="13" />
+                                    <String fx:value="14" />
+                                    <String fx:value="15" />
+                                </FXCollections>
+                            </items>
+                        </ComboBox>
+                        <Label layoutX="5.0" layoutY="254.0" prefHeight="34.0" prefWidth="217.0" text="Mahkumlardan kazanılan para:" />
+                        <TextField fx:id="txtKP" editable="false" layoutX="214.0" layoutY="256.0" prefHeight="31.0" prefWidth="83.0" />
+                        <Button fx:id="btnIslem" layoutX="211.0" layoutY="212.0" mnemonicParsing="false" onAction="#handleButtonKatki" prefHeight="31.0" prefWidth="89.0" text="İşlem Yap" />
+                        <Button fx:id="btnTutar" layoutX="542.0" layoutY="201.0" mnemonicParsing="false" onAction="#handleButtonGider" text="Tutar" />
+                        <Text layoutX="318.0" layoutY="222.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fatura ve Bakım tutarı:" wrappingWidth="151.9999981415922" />
+                        <Button fx:id="btnHesapla" layoutX="223.0" layoutY="412.0" mnemonicParsing="false" onAction="#handleButtonBrutGelir" prefHeight="31.0" prefWidth="78.0" text="Hesapla" />
+                        <Text layoutX="5.0" layoutY="433.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kazanılan para ve Ödenek tutarı:" wrappingWidth="247.00000887261058" />
+                        <TextArea fx:id="txtABakiyeListesi" layoutX="332.0" layoutY="443.0" prefHeight="150.0" prefWidth="276.0" />
+                        <Label layoutX="4.0" layoutY="173.0" prefHeight="21.0" prefWidth="185.0" text="Tablo işini yapan kişi sayısı:" />
+                        <ComboBox fx:id="cboxTabloisi" layoutX="207.0" layoutY="168.0" prefHeight="31.0" prefWidth="94.0">
+                            <items>
+                                <FXCollections fx:factory="observableArrayList">
+                                    <String fx:value="1" />
+                                    <String fx:value="2" />
+                                    <String fx:value="3" />
+                                    <String fx:value="4" />
+                                    <String fx:value="5" />
+                                    <String fx:value="6" />
+                                    <String fx:value="7" />
+                                    <String fx:value="8" />
+                                    <String fx:value="9" />
+                                    <String fx:value="10" />
+                                    <String fx:value="11" />
+                                    <String fx:value="12" />
+                                    <String fx:value="13" />
+                                    <String fx:value="14" />
+                                    <String fx:value="15" />
+                                </FXCollections>
+                            </items>
+                        </ComboBox>
+                        <Button fx:id="btnNet" layoutX="210.0" layoutY="530.0" mnemonicParsing="false" onAction="#handleButtonNetGelir" prefHeight="31.0" prefWidth="89.0" text="Net" />
+                        <Button fx:id="btnGuncelBakiye" layoutX="499.0" layoutY="361.0" mnemonicParsing="false" onAction="#handleButtonYeniBakiye" text="Güncel Bakiye" />
+                        <Label layoutX="318.0" layoutY="333.0" prefHeight="21.0" prefWidth="78.0" text="Bakiye:" />
+                        <TextField fx:id="txtBakiye" layoutX="499.0" layoutY="328.0" prefHeight="31.0" prefWidth="113.0" />
+                    </children>
+                </Pane>
+                <Pane fx:id="pnNobetListesi" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #b2b2b2;">
+                    <children>
+                        <Text layoutX="151.0" layoutY="189.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Çalışan seçiniz:" />
+                        <ComboBox fx:id="cboxNCalisan" layoutX="243.0" layoutY="172.0" prefWidth="150.0">
+                            <items>
+                                <FXCollections fx:factory="observableArrayList">
+                                    <String fx:value="Gardiyan" />
+                                    <String fx:value="Hizmetli" />
+                                </FXCollections>
+                            </items>
+                        </ComboBox>
+                        <ComboBox fx:id="cboxNId" layoutX="283.0" layoutY="238.0" prefHeight="25.0" prefWidth="71.0">
+                            <items>
+                                <FXCollections fx:factory="observableArrayList">
+                                    <String fx:value="1" />
+                                    <String fx:value="2" />
+                                    <String fx:value="3" />
+                                    <String fx:value="4" />
+                                    <String fx:value="5" />
+                                    <String fx:value="6" />
+                                    <String fx:value="7" />
+                                    <String fx:value="8" />
+                                    <String fx:value="9" />
+                                    <String fx:value="10" />
+                                </FXCollections>
+                            </items>
+                        </ComboBox>
+                        <Text layoutX="177.0" layoutY="255.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID Seçimi:" />
+                        <Button fx:id="btnNKayitGoster" layoutX="278.0" layoutY="456.0" mnemonicParsing="false" onAction="#handleButtonNKayitGoster" text="Kayıt Göster" />
+                        <TextArea fx:id="txtANListe" layoutX="202.0" layoutY="292.0" prefHeight="150.0" prefWidth="232.0" />
+                        <Text layoutX="234.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NÖBET LİSTESİ" underline="true">
+                            <font>
+                                <Font name="System Bold" size="24.0" />
+                            </font>
+                        </Text>
+                    </children>
+                </Pane>
+                <Pane fx:id="pnPersonel" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="634.0" prefWidth="636.0" style="-fx-background-color: #b2b2b2;">
+                    <children>
+                        <Button fx:id="btnGI" layoutX="183.0" layoutY="185.0" mnemonicParsing="false" onAction="#handleButtonGI" prefHeight="25.0" prefWidth="271.0" text="Gardiyan İşlem" />
+                        <Button fx:id="btnHI" layoutX="183.0" layoutY="268.0" mnemonicParsing="false" onAction="#handleButtonHI" prefHeight="25.0" prefWidth="271.0" text="Hizmetli İşlem" />
+                        <Button fx:id="btnYP" layoutX="185.0" layoutY="347.0" mnemonicParsing="false" onAction="#handleButtonYPI" prefHeight="25.0" prefWidth="271.0" text="Yemekhane Personeli İşlem" />
+                    </children>
+                </Pane>
+                <Pane fx:id="pnRevir" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="634.0" prefWidth="636.0" style="-fx-background-color: #b2b2b2;">
+                    <children>
+                        <Label layoutX="246.0" layoutY="14.0" prefHeight="65.0" prefWidth="143.0" text="REVİR">
+                            <font>
+                                <Font name="System Bold" size="44.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="402.0" layoutY="91.0" text="Mahkumlar" underline="true">
+                            <font>
+                                <Font size="25.0" />
+                            </font>
+                        </Label>
+                        <Line endX="511.0" endY="-1.52587890625E-5" layoutX="124.0" layoutY="88.0" startX="-124.99999237060547" startY="-1.52587890625E-5" />
+                        <TextArea fx:id="txtARevir" editable="false" layoutX="298.0" layoutY="129.0" prefHeight="200.0" prefWidth="335.0" />
+                        <Text layoutX="14.0" layoutY="114.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Revire eklenecek mahkum ID'sini giriniz." underline="true" />
+                        <Button fx:id="btnREkle" layoutX="141.0" layoutY="292.0" mnemonicParsing="false" onAction="#handleButtonRKayit" text="Ekle" />
+                        <Text layoutX="350.0" layoutY="418.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Revirden çıkarılacak mahkum ID'sini giriniz." underline="true" />
+                        <Text layoutX="395.0" layoutY="457.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID:" />
+                        <Button fx:id="btnRCikar" layoutX="527.0" layoutY="440.0" mnemonicParsing="false" onAction="#handleButtonRCikar" text="Çıkar" />
+                        <Button fx:id="btnRYenile" layoutX="440.0" layoutY="349.0" mnemonicParsing="false" onAction="#handleButtonRYenile" text="Yenile" />
+                        <Text layoutX="14.0" layoutY="187.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hastalığı:" />
+                        <Text layoutX="13.0" layoutY="256.0" strokeType="OUTSIDE" strokeWidth="0.0" text="İşlem tipi:" />
+                        <Text layoutX="15.0" layoutY="221.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Durumu:" />
+                        <ComboBox fx:id="cboxDurum" layoutX="92.0" layoutY="204.0" prefWidth="150.0">
+                            <items>
+                                <FXCollections fx:factory="observableArrayList">
+                                    <String fx:value="Hafif" />
+                                    <String fx:value="Gözlem altında" />
+                                    <String fx:value="Ağır" />
+                                </FXCollections>
+                            </items>
+                        </ComboBox>
+                        <TextField fx:id="txtIslemTipi" editable="false" layoutX="93.0" layoutY="239.0" />
+                        <ComboBox fx:id="cboxRMId" layoutX="109.0" layoutY="129.0" prefHeight="25.0" prefWidth="102.0">
+                            <items>
+                                <FXCollections fx:factory="observableArrayList">
+                                    <String fx:value="1" />
+                                    <String fx:value="2" />
+                                    <String fx:value="3" />
+                                    <String fx:value="4" />
+                                    <String fx:value="5" />
+                                    <String fx:value="6" />
+                                    <String fx:value="7" />
+                                    <String fx:value="8" />
+                                    <String fx:value="9" />
+                                    <String fx:value="10" />
+                                    <String fx:value="11" />
+                                    <String fx:value="12" />
+                                    <String fx:value="13" />
+                                    <String fx:value="14" />
+                                    <String fx:value="15" />
+                                    <String fx:value="16" />
+                                    <String fx:value="17" />
+                                    <String fx:value="18" />
+                                    <String fx:value="19" />
+                                    <String fx:value="20" />
+                                    <String fx:value="21" />
+                                    <String fx:value="22" />
+                                    <String fx:value="23" />
+                                    <String fx:value="24" />
+                                    <String fx:value="25" />
+                                    <String fx:value="26" />
+                                    <String fx:value="27" />
+                                    <String fx:value="28" />
+                                    <String fx:value="29" />
+                                    <String fx:value="30" />
+                                    <String fx:value="31" />
+                                    <String fx:value="32" />
+                                    <String fx:value="33" />
+                                    <String fx:value="34" />
+                                    <String fx:value="35" />
+                                    <String fx:value="36" />
+                                    <String fx:value="37" />
+                                    <String fx:value="38" />
+                                    <String fx:value="39" />
+                                    <String fx:value="40" />
+                                </FXCollections>
+                            </items>
+                        </ComboBox>
+                        <TextField fx:id="txtHastalik" layoutX="93.0" layoutY="170.0" />
+                        <ComboBox fx:id="cboxRIdCikar" layoutX="415.0" layoutY="440.0" prefHeight="25.0" prefWidth="83.0">
+                            <items>
+                                <FXCollections fx:factory="observableArrayList">
+                                    <String fx:value="1" />
+                                    <String fx:value="2" />
+                                    <String fx:value="3" />
+                                    <String fx:value="4" />
+                                    <String fx:value="5" />
+                                    <String fx:value="6" />
+                                    <String fx:value="7" />
+                                    <String fx:value="8" />
+                                    <String fx:value="9" />
+                                    <String fx:value="10" />
+                                    <String fx:value="11" />
+                                    <String fx:value="12" />
+                                    <String fx:value="13" />
+                                    <String fx:value="14" />
+                                    <String fx:value="15" />
+                                    <String fx:value="16" />
+                                    <String fx:value="17" />
+                                    <String fx:value="18" />
+                                    <String fx:value="19" />
+                                    <String fx:value="20" />
+                                    <String fx:value="21" />
+                                    <String fx:value="22" />
+                                    <String fx:value="23" />
+                                    <String fx:value="24" />
+                                    <String fx:value="25" />
+                                    <String fx:value="26" />
+                                    <String fx:value="27" />
+                                    <String fx:value="28" />
+                                    <String fx:value="29" />
+                                    <String fx:value="30" />
+                                    <String fx:value="31" />
+                                    <String fx:value="32" />
+                                    <String fx:value="33" />
+                                    <String fx:value="34" />
+                                    <String fx:value="35" />
+                                    <String fx:value="36" />
+                                    <String fx:value="37" />
+                                    <String fx:value="38" />
+                                    <String fx:value="39" />
+                                    <String fx:value="40" />
+                                </FXCollections>
+                            </items>
+                        </ComboBox>
+                    </children>
+                </Pane>
+                <Pane fx:id="pnMI" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="634.0" prefWidth="636.0" style="-fx-background-color: #b2b2b2;">
+                    <children>
+                        <Label layoutX="202.0" layoutY="24.0" prefHeight="34.0" prefWidth="232.0" text="MAHKUM İŞLEMLERİ">
+                            <font>
+                                <Font name="System Bold" size="23.0" />
+                            </font>
+                        </Label>
+                        <Line endX="511.0" endY="-1.52587890625E-5" layoutX="125.0" layoutY="58.0" startX="-124.99999237060547" startY="-1.52587890625E-5" />
+                        <Line endX="21.499908447265625" endY="438.0" layoutX="295.0" layoutY="196.0" startX="21.49993896484375" startY="-137.29290771484375" />
+                        <Label layoutX="109.0" layoutY="76.0" prefHeight="30.0" prefWidth="93.0" text="Yeni Kayıt" underline="true">
+                            <font>
+                                <Font size="20.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="398.0" layoutY="76.0" prefHeight="30.0" prefWidth="166.0" text="Mahkum Kayıtları" underline="true">
+                            <font>
+                                <Font size="20.0" />
+                            </font>
+                        </Label>
+                        <Text layoutX="44.0" layoutY="163.0" strokeType="OUTSIDE" strokeWidth="0.0" text="İsim:" wrappingWidth="38.34375" />
+                        <Text layoutX="36.0" layoutY="203.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Soyisim:" wrappingWidth="55.0" />
+                        <Text layoutX="44.0" layoutY="246.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Yaş:" wrappingWidth="38.34375" />
+                        <Text layoutX="46.0" layoutY="297.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Suç:" wrappingWidth="34.82812500000023" />
+                        <Text layoutX="48.0" layoutY="340.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hüküm Tarihi" wrappingWidth="55.0" />
+                        <Text layoutX="22.0" layoutY="398.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ceza süresi:" wrappingWidth="83.27655029296875" />
+                        <TextField fx:id="txtMKIsim" layoutX="128.0" layoutY="146.0" />
+                        <TextField fx:id="txtMKSoyisim" layoutX="128.0" layoutY="186.0" />
+                        <TextField fx:id="txtMKYas" layoutX="128.0" layoutY="229.0" />
+                        <TextField fx:id="txtMKSuc" layoutX="128.0" layoutY="280.0" />
+                        <DatePicker fx:id="dtHukumTarihi" layoutX="127.0" layoutY="330.0" prefHeight="26.0" prefWidth="149.0" />
+                        <TextField fx:id="txtCezaSure" layoutX="127.0" layoutY="381.0" prefHeight="25.0" prefWidth="150.0" />
+                        <Label layoutX="51.0" layoutY="467.0" prefHeight="18.0" prefWidth="74.0" text="Koğuş ID" underline="true" />
+                        <Label layoutX="171.0" layoutY="467.0" prefHeight="18.0" prefWidth="113.0" text="Yatak Numarası" underline="true" />
+                        <Button fx:id="btnMKKayitEkle" layoutX="109.0" layoutY="547.0" mnemonicParsing="false" onAction="#handleButtonMKC" prefHeight="26.0" prefWidth="94.0" text="Kayıt Ekle" />
+                        <TextArea fx:id="txtareaMKayitlari" editable="false" layoutX="324.0" layoutY="130.0" prefHeight="187.0" prefWidth="309.0" />
+                        <Button fx:id="btnMKyenile" layoutX="453.0" layoutY="331.0" mnemonicParsing="false" onAction="#handleButtonMKayitListele" text="Yenile" />
+                        <Text layoutX="358.0" layoutY="375.0" strokeType="OUTSIDE" strokeWidth="0.0" text="İşlem yapmak istediğiniz mahkumun numarasını giriniz:" underline="true" wrappingWidth="254.13665771484375" />
+                        <Text layoutX="391.0" layoutY="424.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID:" />
+                        <TextField fx:id="txtfieldMKId" layoutX="443.0" layoutY="407.0" prefHeight="26.0" prefWidth="63.0" />
+                        <Button fx:id="btnMKKayitSil" layoutX="446.0" layoutY="595.0" mnemonicParsing="false" onAction="#handleButtonMKD" text="Kaydı Sil" />
+                        <Text layoutX="354.0" layoutY="472.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Koğuş veya yatak değişikliği için seçim yapınız." underline="true" wrappingWidth="262.4000244140625" />
+                        <Label layoutX="370.0" layoutY="499.0" text="Koğuş:">
+                            <font>
+                                <Font name="System Bold" size="12.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="491.0" layoutY="499.0" text="Yatak:">
+                            <font>
+                                <Font name="System Bold" size="12.0" />
+                            </font>
+                        </Label>
+                        <Button fx:id="btnMKDegisimUygula" layoutX="420.0" layoutY="547.0" mnemonicParsing="false" onAction="#handleButtonMKU" prefHeight="26.0" prefWidth="113.0" text="Değişimi Uygula" />
+                        <Text layoutX="44.0" layoutY="447.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID:" wrappingWidth="14.208984375" />
+                        <ComboBox fx:id="cboxMKId" layoutX="133.0" layoutY="430.0" prefHeight="25.0" prefWidth="77.0">
+                            <items>
+                                <FXCollections fx:factory="observableArrayList">
+                                    <String fx:value="1" />
+                                    <String fx:value="2" />
+                                    <String fx:value="3" />
+                                    <String fx:value="4" />
+                                    <String fx:value="5" />
+                                    <String fx:value="6" />
+                                    <String fx:value="7" />
+                                    <String fx:value="8" />
+                                    <String fx:value="9" />
+                                    <String fx:value="10" />
+                                    <String fx:value="11" />
+                                    <String fx:value="12" />
+                                    <String fx:value="13" />
+                                    <String fx:value="14" />
+                                    <String fx:value="15" />
+                                    <String fx:value="16" />
+                                    <String fx:value="17" />
+                                    <String fx:value="18" />
+                                    <String fx:value="19" />
+                                    <String fx:value="20" />
+                                    <String fx:value="21" />
+                                    <String fx:value="22" />
+                                    <String fx:value="23" />
+                                    <String fx:value="24" />
+                                    <String fx:value="25" />
+                                    <String fx:value="26" />
+                                    <String fx:value="27" />
+                                    <String fx:value="28" />
+                                    <String fx:value="29" />
+                                    <String fx:value="30" />
+                                    <String fx:value="31" />
+                                    <String fx:value="32" />
+                                    <String fx:value="33" />
+                                    <String fx:value="34" />
+                                    <String fx:value="35" />
+                                    <String fx:value="36" />
+                                    <String fx:value="37" />
+                                    <String fx:value="38" />
+                                    <String fx:value="39" />
+                                    <String fx:value="40" />
+                                </FXCollections>
+                            </items>
+                        </ComboBox>
+                        <ComboBox fx:id="cboxKogusId" layoutX="37.0" layoutY="495.0" prefHeight="25.0" prefWidth="77.0">
+                            <items>
+                                <FXCollections fx:factory="observableArrayList">
+                                    <String fx:value="1" />
+                                    <String fx:value="2" />
+                                    <String fx:value="3" />
+                                    <String fx:value="4" />
+                                    <String fx:value="5" />
+                                    <String fx:value="6" />
+                                    <String fx:value="7" />
+                                    <String fx:value="8" />
+                                    <String fx:value="9" />
+                                    <String fx:value="10" />
+                                </FXCollections>
+                            </items>
+                        </ComboBox>
+                        <ComboBox fx:id="cboxYatakNumara" layoutX="172.0" layoutY="495.0" prefHeight="25.0" prefWidth="77.0">
+                            <items>
+                                <FXCollections fx:factory="observableArrayList">
+                                    <String fx:value="1" />
+                                    <String fx:value="2" />
+                                    <String fx:value="3" />
+                                    <String fx:value="4" />
+                                </FXCollections>
+                            </items>
+                        </ComboBox>
+                        <ComboBox fx:id="cboxMKKogus" layoutX="413.0" layoutY="495.0" prefHeight="25.0" prefWidth="63.0">
+                            <items>
+                                <FXCollections fx:factory="observableArrayList">
+                                    <String fx:value="1" />
+                                    <String fx:value="2" />
+                                    <String fx:value="3" />
+                                    <String fx:value="4" />
+                                    <String fx:value="5" />
+                                    <String fx:value="6" />
+                                    <String fx:value="7" />
+                                    <String fx:value="8" />
+                                    <String fx:value="9" />
+                                    <String fx:value="10" />
+                                </FXCollections>
+                            </items>
+                        </ComboBox>
+                        <ComboBox fx:id="cboxMKYatak" layoutX="533.0" layoutY="495.0" prefHeight="25.0" prefWidth="63.0">
+                            <items>
+                                <FXCollections fx:factory="observableArrayList">
+                                    <String fx:value="1" />
+                                    <String fx:value="2" />
+                                    <String fx:value="3" />
+                                    <String fx:value="4" />
+                                    <String fx:value="5" />
+                                    <String fx:value="6" />
+                                    <String fx:value="7" />
+                                    <String fx:value="8" />
+                                    <String fx:value="9" />
+                                    <String fx:value="10" />
+                                </FXCollections>
+                            </items>
+                        </ComboBox>
+                        <Text layoutX="463.0" layoutY="586.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Veya" />
+                    </children>
+                </Pane>
+            </children>
+        </StackPane>
+        <Pane layoutX="267.0" prefHeight="106.0" prefWidth="636.0" style="-fx-background-color: #b2b2b2;">
+            <children>
+                <Text layoutX="11.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PRISON AUTOMATION" wrappingWidth="613.814208984375">
+                    <font>
+                        <Font size="60.0" />
+                    </font>
+                </Text>
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>

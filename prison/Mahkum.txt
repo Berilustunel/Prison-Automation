@@ -1,0 +1,7 @@
+ID:5.İsim: hdh_dfhgh| Yaş: 45| Suçu: xgdg| Hüküm Tarihi: 2020-06-10| Ceza süresi: 45| Koğuş No: 8| Yatak No: 6|
+ID:10.İsim: 5_55| Yaş: 5| Suçu: 5| Hüküm Tarihi: 2020-06-10| Ceza süresi: 5| Koğuş No: 10| Yatak No: 3|
+ID:9.İsim: 6_6| Yaş: 6| Suçu: 6| Hüküm Tarihi: 2020-06-09| Ceza süresi: 6| Koğuş No: 5| Yatak No: 3|
+ID:7.İsim: 1_1| Yaş: 1| Suçu: 1| Hüküm Tarihi: 2020-06-09| Ceza süresi: 1| Koğuş No: 2| Yatak No: 1|
+ID:1.İsim: 1_1| Yaş: 1| Suçu: 1| Hüküm Tarihi: 2020-06-09| Ceza süresi: 1| Koğuş No: 1| Yatak No: 1|
+ID:2.İsim: 1_1| Yaş: 1| Suçu: 1| Hüküm Tarihi: 2020-06-09| Ceza süresi: 1| Koğuş No: 3| Yatak No: 3|
+ID:3.İsim: 11_1| Yaş: 11| Suçu: 1| Hüküm Tarihi: 2020-06-10| Ceza süresi: 1| Koğuş No: 2| Yatak No: 2|
